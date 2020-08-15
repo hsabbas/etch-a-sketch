@@ -1,0 +1,15 @@
+#container{
+    padding: 0;
+    margin: 0 auto;
+    height:480px;
+    width:480px;
+    background-color: aqua;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.cell{
+    background-color: black;
+    height: 30px;
+    width: 30px;
+}
