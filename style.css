@@ -1,15 +1,30 @@
-#container{
-    padding: 0;
+#board{
     margin: 0 auto;
     height:480px;
     width:480px;
-    background-color: aqua;
+    border: solid 1px black;
     display: flex;
     flex-flow: row wrap;
 }
 
 .cell{
-    background-color: black;
-    height: 30px;
-    width: 30px;
+    opacity: 0;
+}
+
+#buttons{
+    display:flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+button{
+    margin: 0 20px;
+    width: 130px;
+    padding: 10px;
+}
+
+#shading-btn{
+    display: block;
+    margin: 4px auto;
 }
